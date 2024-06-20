@@ -66,6 +66,8 @@ Consider the following example:
 ---
 filename: wrangler.toml
 ---
+# Ensure compatibility date so we can dynamicaly import
+compatibility_date = "2024-03-20"
 name = "counter"
 main = "./src/counter.js"
 ```
